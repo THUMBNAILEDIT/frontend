@@ -54,7 +54,7 @@ export default function TopNavbar() {
       </nav>
       
       <div className="nav-right">
-        <div className="currency">
+        <div className="currency" onClick={() => router.push('/payment')} style={{ cursor: 'pointer' }}>
           <span>1,250</span>
         </div>
         <div className="profile-pic"></div>

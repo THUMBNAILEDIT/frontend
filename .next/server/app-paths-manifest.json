@@ -1,6 +1,7 @@
 {
-  "/payment/page": "app/payment/page.js",
   "/page": "app/page.js",
+  "/payment/page": "app/payment/page.js",
+  "/support/page": "app/support/page.js",
   "/history/page": "app/history/page.js",
-  "/support/page": "app/support/page.js"
+  "/request/page": "app/request/page.js"
 }

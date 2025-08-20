@@ -85,7 +85,6 @@ export default function EditPackModal({ pack, onClose, onSave }) {
     <div className="edit-pack-modal-overlay" onClick={onClose}>
       <div className="edit-pack-modal" onClick={(e) => e.stopPropagation()}>
         <div className="edit-pack-modal-header">
-          <h2>Edit Request</h2>
           <button className="close-button" onClick={onClose}>×</button>
         </div>
         

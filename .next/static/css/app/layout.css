@@ -976,6 +976,7 @@ a {
 /* Pack Page Styles */
 .pack-page-content {
   padding: 2rem;
+  padding-top: calc(70px + 2rem);
   background-color: #0d0d0d;
   min-height: calc(100vh - 70px);
 }
@@ -3538,7 +3539,7 @@ input:checked + .toggle-slider:before {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 2rem 2rem 0 2rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .edit-pack-modal .close-button {
@@ -3577,15 +3578,26 @@ input:checked + .toggle-slider:before {
 .edit-pack-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
-  gap: 2rem;
-  padding: 2rem;
+  grid-gap: 2.5rem;
+  gap: 2.5rem;
+  padding: 1rem;
 }
 
 /* Add separating line between left and right columns */
 .edit-pack-left {
   border-right: 1px solid #333;
   padding-right: 1rem;
+}
+
+/* Center labels in edit pack modal */
+.edit-pack-modal .form-group label {
+  text-align: center;
+}
+
+/* Make textareas slightly smaller in width */
+.edit-pack-modal .edit-textarea {
+  width: 85%;
+  margin: 0 auto;
 }
 
 /* Add separating line between title and description blocks */
@@ -3599,7 +3611,7 @@ input:checked + .toggle-slider:before {
 .edit-pack-right {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .thumbnail-preview {
@@ -3986,6 +3998,7 @@ input:checked + .toggle-slider:before {
 
 /* Billing History Section */
 .billing-history-section {
+  margin-top: 4rem;
   margin-bottom: 3rem;
 }
 
@@ -4042,6 +4055,7 @@ input:checked + .toggle-slider:before {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
@@ -4105,6 +4119,7 @@ input:checked + .toggle-slider:before {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
@@ -4114,13 +4129,14 @@ input:checked + .toggle-slider:before {
 }
 
 .add-payment-method-btn {
-  background-color: transparent;
-  color: #96ff00;
-  border: 1px solid #96ff00;
+  background-color: #333;
+  color: #9BA2AE;
+  border: 1px solid #333;
   padding: 1rem;
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: center;
@@ -5276,7 +5292,7 @@ input:checked + .toggle-slider:before {
   font-size: 1.25rem;
   font-weight: normal;
   font-family: inherit;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding: 0.25rem 0;
 }
 
@@ -5285,7 +5301,7 @@ input:checked + .toggle-slider:before {
   font-size: 1.1rem;
   font-weight: normal;
   font-family: inherit;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding: 0.25rem 0;
   line-height: 1.4;
 }
@@ -5295,7 +5311,7 @@ input:checked + .toggle-slider:before {
   display: flex;
   justify-content: flex-end;
   gap: 0.5rem;
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
 }
 
 .block-apply-button {
@@ -5406,6 +5422,7 @@ input:checked + .toggle-slider:before {
 
 /* Billing History Section */
 .billing-history-section {
+  margin-top: 4rem;
   margin-bottom: 3rem;
 }
 
@@ -5462,6 +5479,7 @@ input:checked + .toggle-slider:before {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
@@ -5525,6 +5543,7 @@ input:checked + .toggle-slider:before {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
@@ -5534,13 +5553,14 @@ input:checked + .toggle-slider:before {
 }
 
 .add-payment-method-btn {
-  background-color: transparent;
-  color: #96ff00;
-  border: 1px solid #96ff00;
+  background-color: #333;
+  color: #9BA2AE;
+  border: 1px solid #333;
   padding: 1rem;
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: center;
